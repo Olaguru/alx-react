@@ -24,14 +24,14 @@
 }
 
 .App-body {
-
+      padding-left: 40px;
+      font-size: small;
 
 }
 
 .App-body p {
-      font-size: 80%;
+      font-size: 100%;
       padding-top: 4%;
-      padding-left: 6%;
 }
 
 .Horizontal-line {
@@ -51,4 +51,14 @@
 .App-footer p {
   text-align: center;
   font-style: italic;
+}
+
+form label {
+      padding-right: 10px;
+}
+
+form input {
+      padding: -200%;
+      margin-right: 20px;
+
 }

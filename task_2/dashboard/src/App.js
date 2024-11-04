@@ -12,11 +12,13 @@ function App(){
       <hr className='Horizontal-line'/>
       <div className='App-body'>
           <p>Login to access the full dashboard</p>
-          <label for='email'>email</label>
+          <form>
+          <label for='email'>Email:</label>
           <input type='email' id='email' placeholder='Enter your email'/>
-          <label for='password'>password</label>
+          <label for='password'>Password:</label>
           <input type='password' id='password' placeholder='Enter your password'/>
           <button type='button'>OK</button>
+          </form>
       </div>
       <div className='spacer'></div>
       <hr className='Horizontal-line'/>
