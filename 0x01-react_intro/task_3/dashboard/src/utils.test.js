@@ -8,6 +8,10 @@ test('Test getFullYear', () => {
     expect(getFullYear()).toBe(currentYear);
 });
 
+test('Test getFullYear', () => {
+    expect(getFullYear()).toBe(2024);
+});
+
 test('Test getFooterCopy', () => {
     expect(getFooterCopy(true)).toBe('ALX');
 })
